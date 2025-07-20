@@ -1,16 +1,49 @@
-# tourbuddy
+**TourBuddy – Travel Community App**
 
-A new Flutter project.
+Discover hidden gems and share your city's best spots with the world.
 
-## Getting Started
+**Overview**
 
-This project is a starting point for a Flutter application.
+TourBuddy is a Flutter-based travel community app where users can explore famous and lesser-known places shared by locals around the world. Users can also contribute their own posts, like, and comment on others’ experiences.
 
-A few resources to get you started if this is your first Flutter project:
+**Tech Stack**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter & Dart – Cross-platform UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Firebase Authentication – Secure user login/signup
+
+- Cloud Firestore – Realtime database for posts and comments
+
+- Firebase Storage – For storing post images
+
+- State Management – Using only StatefulWidget for simplicity
+
+**Features**
+
+Explore curated famous places globally
+
+- Post hidden travel gems with images and description
+
+- Like and comment on community posts
+
+- User authentication (sign in/sign up)
+
+- Responsive UI for all screen sizes
+
+**Getting Started**
+
+1) Clone the repo:
+- git clone https://github.com/your-username/tourbuddy.git 
+
+- cd tourbuddy
+
+2) Install Dependencies:
+- flutter pub get
+
+3) Setup Firebase:
+- Add your google-services.json (Android) & GoogleService-Info.plist (iOS)
+
+- Enable Firebase Auth, Firestore, and Storage
+
+4) Run the App:
+- flutter run
