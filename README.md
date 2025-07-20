@@ -33,17 +33,17 @@ Explore curated famous places globally
 **Getting Started**
 
 1) Clone the repo:
-- git clone https://github.com/your-username/tourbuddy.git 
+  - git clone https://github.com/your-username/tourbuddy.git 
 
-- cd tourbuddy
+  - cd tourbuddy
 
 2) Install Dependencies:
-- flutter pub get
+  - flutter pub get
 
 3) Setup Firebase:
-- Add your google-services.json (Android) & GoogleService-Info.plist (iOS)
+  - Add your google-services.json (Android) & GoogleService-Info.plist (iOS)
 
-- Enable Firebase Auth, Firestore, and Storage
+  - Enable Firebase Auth, Firestore, and Storage
 
 4) Run the App:
 - flutter run
