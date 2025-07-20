@@ -20,7 +20,7 @@ TourBuddy is a Flutter-based travel community app where users can explore famous
 
 **Features**
 
-Explore curated famous places globally
+- Explore curated famous places globally
 
 - Post hidden travel gems with images and description
 
